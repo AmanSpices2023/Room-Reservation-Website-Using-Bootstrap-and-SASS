@@ -1,0 +1,41 @@
+.aboutus__wrapper{
+    margin-bottom: 9rem;
+    .row{
+        justify-content: space-between;
+        align-items: center;
+        .aboutus__wrapper-content{
+            h2{
+                margin: 1rem 0 3rem 0;
+            }
+            p{
+                color: $textColor;
+            }
+            button {
+                margin-top: 2rem;
+                background-color: $textColor;
+                padding: 1.6rem;
+                width: 25rem;
+                font-size: 1.6rem;
+                font-family: $headingFont;
+                color: $whiteColor;
+                &:hover {
+                    background-color: $whiteColor;
+                    color: $blackColor;
+                    border: .1rem solid #8f8b8b;
+                }
+            }
+        }
+        .aboutus__wrapper--image{
+            figure{
+                width: 100%;
+                height: 100%;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: .2rem;
+                }
+            }
+
+        }
+    }
+}

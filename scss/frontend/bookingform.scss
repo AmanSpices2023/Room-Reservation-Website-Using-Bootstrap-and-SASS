@@ -1,0 +1,46 @@
+.bookingform__wrapper {    
+    margin: 4.5rem auto;
+    width: 65%;
+    padding: 2rem;
+    border:.1rem solid #ece7e7;
+
+    form {
+        label {
+            font-family: $headingFont;
+            font-size: 2rem;
+            display: block;
+        }
+
+        .form-control {
+            margin-top: 1rem;
+            font-size: 1.6rem;
+            padding: 1rem;
+            word-spacing: .5rem;
+            border: 0;
+            border-bottom: .1rem solid $blackColor;
+            border-radius: 0rem;
+            font-family: $textFont;
+            font-weight: 600;
+        }
+
+        .button-div {
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            button {
+                background-color: $textColor;
+                padding: 1.6rem;
+                width: 25rem;
+                font-size: 1.6rem;
+                font-family: $headingFont;
+                color: $whiteColor;
+                &:hover {
+                    background-color: $whiteColor;
+                    color: $blackColor;
+                    border: .1rem solid #8f8b8b;
+                }
+            }
+        }
+    }
+}

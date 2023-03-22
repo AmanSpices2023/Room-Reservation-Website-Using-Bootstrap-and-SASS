@@ -1,0 +1,27 @@
+.testimonials__wrapper {
+    margin: 9rem 0;
+
+    .title {
+        margin-bottom: 4.5rem;
+    }
+
+    .swiper-slide {
+        border: .1rem solid #eae6e6;
+        padding: 4rem;
+        .testimonials__wrapper--rating {
+            svg {
+                fill: #FFD700;
+            }
+
+        }
+
+        h3 {
+            margin: 1rem 0 2rem 0;
+        }
+
+        p {
+            font-style: italic;
+            padding: 0 2rem;
+        }
+    }
+}

@@ -1,0 +1,227 @@
+@media only screen and (max-width: 479px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .contact__wrapper {
+        justify-content: center !important;
+    }
+
+    .socialmedia__wrapper {
+        justify-content: center !important;
+    }
+
+    .bookingform__wrapper {
+        button {
+            margin-top: 5rem;
+        }
+    }
+
+    .services__wrapper {
+        margin: 9rem 0;
+
+        .title__text {
+            text-align: center;
+        }
+
+        .service__list--image {
+            text-align: center;
+        }
+
+        .service__list--content {
+            text-align: center;
+            margin-bottom: 4rem;
+
+            h3 {
+                margin: 1.5rem 0 !important;
+            }
+        }
+
+        .title__button {
+            justify-content: center !important;
+        }
+
+    }
+
+    // about us
+    .aboutus__wrapper {
+        .aboutus__wrapper-content {
+            text-align: center;
+
+            span {
+                display: block;
+            }
+
+            .btn {
+                margin-bottom: 4.5rem;
+            }
+        }
+    }
+
+    // rooms
+    .room__wrapper {
+        margin: 0 1rem;
+
+        .swiper-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .swiper-slide {
+                width: 100% !important;
+                margin-bottom: 2rem;
+
+                figure {
+                    img {
+                        height: 40rem !important;
+                    }
+                }
+            }
+        }
+    }
+
+    // testimonials
+    .testimonials__wrapper {
+        .swiper-wrapper {
+            .swiper-slide {
+                width: 100% !important;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .breadcrumb__wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .contact__wrapper {
+        justify-content: center !important;
+    }
+
+    .socialmedia__wrapper {
+        justify-content: center !important;
+    }
+
+    .bookingform__wrapper {
+        .button-div {
+            margin-top: 2rem;
+        }
+    }
+
+    // service wrapper
+    .services__wrapper {
+        margin: 9rem 0;
+
+        h2 {
+            width: 100% !important;
+        }
+
+        .title__button {
+            margin-top: 2rem;
+            justify-content: flex-start !important;
+        }
+    }
+
+    // about us wrapper
+    .aboutus__wrapper {
+        .btn {
+            margin-bottom: 4.5rem;
+        }
+    }
+
+    // rooms
+    .room__wrapper {
+        margin: 0 1rem;
+
+        .swiper-wrapper {
+            display: flex;
+            flex-direction: column;
+
+            .swiper-slide {
+                width: 100% !important;
+                margin-bottom: 2rem;
+
+                figure {
+                    img {
+                        height: 40rem !important;
+                    }
+                }
+            }
+        }
+    }
+
+    // testimonials
+    .testimonials__wrapper {
+        .swiper-wrapper {
+            .swiper-slide {
+                width: 100% !important;
+                margin-bottom: 2rem;
+            }
+        }
+    }
+
+    .breadcrumb__wrapper {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+
+    .container,
+    .container-sm,
+    .container-md,
+    .container-lg,
+    .container-xl,
+    .container-fluid {
+        max-width: 98%;
+    }
+
+    .breadcrumb__wrapper {
+        display: none;
+    }
+
+    .bookingform__wrapper {
+        width: 90%;
+    }
+
+    // rooms
+    .room__wrapper {
+        margin: 0 1rem;
+
+        .swiper-wrapper {
+            .swiper-slide {
+                width: 50% !important;
+                margin-bottom: 2rem;
+
+                figure {
+                    img {
+                        height: 40rem !important;
+                    }
+                }
+            }
+        }
+    }
+
+    .services__wrapper {
+        margin: 9rem 0;
+    }
+}
+
+@media only screen and (min-width: 1600px) and (max-width: 4000px) {}

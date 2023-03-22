@@ -1,0 +1,50 @@
+footer {
+    background-color: #000;
+
+    .footer__top {
+        color: $textColor;
+        padding: 4.5rem 0;
+
+        figure {
+            img {
+                height: 5rem;
+                width: 10rem;
+            }
+
+            .footer_description {
+                p {
+                    padding: 2rem;
+                }
+            }
+        }
+
+        .footer_links {
+            padding: 1.5rem;
+
+            h3 {
+                color: $whiteColor;
+                padding-bottom: 1rem;
+            }
+
+            ul {
+                li {
+                    padding-bottom: 1rem;
+                    a{
+                        font-weight: bold;
+                        color: $textColor;
+                        &:hover{
+                            
+                            color: $whiteColor;
+                            transition: .5s;
+                        }
+                    }
+                }
+            }
+        }
+    }
+
+    .footer__bottom {
+        color: $whiteColor;
+        padding: 1rem 0;
+    }
+}

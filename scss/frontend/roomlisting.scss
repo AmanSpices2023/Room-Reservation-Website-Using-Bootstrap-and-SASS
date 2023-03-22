@@ -1,0 +1,158 @@
+.banner__wrapper {
+    .banner__img {
+        figure {
+            background: linear-gradient(180deg, rgba(2,0,36,1) 0%, rgba(13,13,43,0) 93%, rgba(232,232,255,1) 100%);
+            width: 100%;
+
+            img {
+                width: 100%;
+                height: 100vh;
+                object-fit: cover;
+
+            }
+        }
+    }
+}
+
+.breadcrumb__wrapper {
+    position: absolute;
+    top: 45%;
+    left: 45%;
+
+    h1 {
+        color: $whiteColor;
+    }
+
+    ol {
+        li {
+            font-weight: 600;
+            font-size: 1.8rem;
+            color: $textColor;
+
+            a {
+                color: $whiteColor;
+            }
+        }
+    }
+}
+
+.cstm_pagination {
+    margin: 0 auto;
+
+    ul {
+        justify-content: end;
+        gap: 1.5rem;
+        margin: 1rem 0;
+
+        .page-link {
+            font-family: $textFont;
+            color: #000;
+            border: 1px solid #DFDFDF;
+            padding: 1.2rem 2rem;
+            border-radius: .5rem;
+            font-size: 1.6rem;
+
+            &:hover {
+                background-color: $textColor;
+                color: $whiteColor;
+            }
+        }
+    }
+}
+
+.room__wrapper {
+    margin: 9rem 0;
+    .roomlist__wrapper {
+        margin-top: 5rem;
+        margin-bottom: 1.5rem;
+        figure {
+            position: relative;
+
+            img {
+                border-radius: .5rem;
+                height: 30rem;
+                width: 100%;
+                object-fit: cover;
+                cursor: pointer;
+                overflow: hidden;
+            }
+
+            figcaption {
+                position: absolute;
+                bottom: 0;
+                padding: 0rem 0 2rem 2rem;
+                z-index: 99;
+
+                h3 {
+                    color: $whiteColor;
+                }
+
+            }
+
+            .button {
+                width: 15rem;
+                font-family: $headingFont;
+                border: .1rem solid #8f8b8b;
+                text-align: center;
+                padding: .8rem 0;
+
+                &:hover {
+                    background-color: $textColor;
+                    color: $whiteColor;
+                }
+            }
+
+            .overlay {
+                height: 100%;
+                width: 100%;
+                position: absolute;
+                z-index: 9;
+                border-radius: .5rem;
+            }
+
+            &:hover figcaption {
+                opacity: 0;
+                transition: all ease-in-out .8s;
+            }
+
+            &:hover .roomlist__hover {
+                opacity: 1;
+                z-index: 9999;
+            }
+        }
+
+        .roomlist__hover {
+            border-radius: 1rem;
+            transform: translateY(-100%);
+            background: linear-gradient(0deg, rgba(0, 0, 0, 0.9417016806722689) 0%, rgba(255, 255, 255, 0) 100%);
+            height: 100%;
+            width: 100%;
+            position: absolute;
+            bottom: 0;
+            z-index: 9999;
+            transition: all ease-in-out .5s;
+            color: $textColor;
+            padding: 4rem 2rem;
+            opacity: 0;
+
+            .inner_title {
+                display: flex;
+                justify-content: space-between;
+
+                h3,
+                label {
+                    color: $whiteColor;
+                }
+            }
+
+            p {
+                margin: 2rem 0;
+                color: white;
+            }
+        }
+
+        &:hover .roomlist__hover {
+            transform: translateY(0);
+        }
+    }
+}

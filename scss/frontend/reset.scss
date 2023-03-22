@@ -1,0 +1,59 @@
+@import "variables.scss";
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root{
+  font-size: 10px;
+}
+a,
+a:visited,
+a:hover,
+a:focus {
+  text-decoration: none;
+}
+
+ul {
+  padding: 0;
+  li {
+    list-style-type: none;
+  }
+}
+
+html, body{
+  font-size: 1.6rem;
+  font-family: $textFont;
+}
+
+h1,h2,h3,h4{
+  font-family: $headingFont;
+}
+
+h1{
+  font-size: 7rem;
+}
+h2{
+  font-size: 4.5rem;
+}
+h3{
+  font-size: 2.2rem;
+}
+span{
+      color: #c4ab91;
+    font-size: 1.2rem;
+    font-family: "Nunito",sans-serif;
+}
+header{
+  position: absolute;
+  top: 0;
+  z-index: 9999;
+  width: 100%;
+}
+.banner__wrapper{
+  position: relative;
+}
+.btn{
+  font-size: 1.6rem;
+}

@@ -1,0 +1,20 @@
+{
+  "name": "hotel-page",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "compile": "node-sass scss/style.scss css/style.css --w  --source-map true --output-style compressed",
+    "aboutus": "node-sass scss/aboutus.scss css/aboutus.css --w  --source-map true --output-style compressed",
+    "rooms": "node-sass scss/rooms.scss css/rooms.css --w  --source-map true --output-style compressed",
+    "details": "node-sass scss/roomdetails.scss css/roomdetails.css --w  --source-map true --output-style compressed",
+    "contactus": "node-sass scss/contactus.scss css/contact.css --w  --source-map true --output-style compressed",
+    "media": "node-sass scss/mediaquery.scss css/mediaquery.css --w  --source-map true --output-style compressed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "node-sass": "^8.0.0"
+  }
+}
